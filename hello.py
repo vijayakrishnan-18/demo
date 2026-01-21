@@ -1,2 +1,7 @@
-greeting = "hello world"
-print (greeting)
+def hello():
+	"""Print a friendly greeting."""
+	print("Hello, world!")
+
+
+if __name__ == "__main__":
+	hello()
